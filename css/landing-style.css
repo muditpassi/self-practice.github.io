@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+#head {
+	height: 500px;
+	width: 100%;
+	background-image: url("pushup-workout-wallpaper.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#top {
+	background-color: #926239;
+	height: 200px;
+}
+
+h1 {
+	font-family: helvetica;
+	text-align: center;
+	color: #dcc1bb;
+	height: 80px;
+	padding-top: 20px;
+}
+
+#top p {
+	text-align: center;
+	font-family: verdana;
+	color: #ebe4e2;
+}
+
+.middle {
+	background-color: #ebe4e2;
+	height: 200px;
+}
+
+.middle p {
+	font-family: verdana;
+	text-align: center;
+	color: #a03e29;
+}
+
+.first, .second, .third {
+	display: inline-block;
+}
+
+.first p, .third p {
+	border: 0px;
+	padding: 2px;
+	font-family: verdana;
+	text-align: center;
+	color: #ebe4e2;
+}
+
+.second p {
+	border: 0px;
+	padding: 2px;
+	font-family: verdana;
+	text-align: center;
+	color: #a03e29;
+}
+
+.first, .third {
+	background-color: #926239;
+	height: 200px;
+	width: 33%
+}
+
+.second {
+	background: #ebe4e2;
+	height: 200px;
+	width: 33%;
+}
